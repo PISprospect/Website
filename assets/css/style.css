@@ -1927,8 +1927,8 @@ p:last-child {
   transform: translateY(-10px);
 }
 .single-services-item:hover .services-icon {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
 }
 
 /**************************************
