@@ -2905,6 +2905,18 @@ p:last-child {
   height: 500px;
 }
 
+
+/* careers page*/
+
+.careers-page-title-area {
+  position: relative;
+  z-index: 1;
+  background-image: url(../img/join-us.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
 /* Software Development */
 
 .sd-page-title-area {
@@ -3007,7 +3019,8 @@ p:last-child {
 .web-app-dev-page-title-area:before,
 .web-designing-page-title-area:before,
 .mobile-development-page-title-area:before,
-.testing-page-title-area:before {
+.testing-page-title-area:before,
+.careers-page-title-area:before {
   content: '';
   position: absolute;
   height: 100%;
@@ -3017,6 +3030,10 @@ p:last-child {
   top: 0;
   opacity: 0.5;
   z-index: -1;
+}
+
+.careers-email{
+  color: #7b68ee;
 }
 
 .page-title-content {
