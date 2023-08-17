@@ -184,50 +184,71 @@
 	<!-- Start Services Details Area -->
 	<br><br>
 	
-	<section class="accordion">
-	  <input type="checkbox" name="collapse" id="handle3" checked="checked">
-	  <h2 class="handle">
-		<label for="handle3">Software Developer, II</label>
-	  </h2>
-	  <div class="content">
-		<p><strong> Multiple Pos. (Chesterfield, MO)</strong> – Design/develop/modify software/sys. Appl.; perform database design for sys. conformance/optimization; provide tech. analysis/coding; perform analysis/database reengineering.  Travel to various unanticipated client sites. </p>
-		<p>Req. Master’s deg. (or foreign equi. degree) in Comp. Sci., Comp. Info. Sys., Electrical Engg, Comp. Apps., Bus. Admin., Engg. (Any field), Math., MIS or related with knowledge of at least 7 tech’s. from the following list: AWS, Bit Bucket, React JS, Angular, .Net Core, ADO.Net, Spring, Struts, Hibernate, C, C++, C#, JSP, Web Services, CSS, XML, XSL, HTML, JavaScript, Oracle, Java, J2EE, Python, Hadoop, Hive, Spark, Waterfall, Agile, UNIX, AJAX, Visual Basic, DB2, JSF, Informatica, Business Objects, MySQL, SQL Server, WebLogic, Crystal Reports, LINUX, Eclipse, JUNIT, UML, .Net, Visual Studio. MVC, Windows, COBOL and TOAD. WCF, Perl, PL/SQL, Servlets, JSP, JCF, WebSphere, ASP.Net, ADO.Net, JQuery, XPath, XSL, SSRS, SSIS, SSAS, JIRA, GIT, PowerShell. </p>
-	  </div>
-	</section>
-	
-	<section class="accordion">
-	  <input type="checkbox" name="collapse" id="handle1" checked="checked">
-	  <h2 class="handle">
-		<label for="handle1">Business Information Analyst</label>
-	  </h2>
-	  <div class="content">
-		<p><strong> Chesterfield, MO </strong> – Work on creating functionality to EMMIS application of MHD; collaborate with business users to define scope, objects, and requirements as well as analyze system requirements. Travel to various unanticipated client sites. Req’s Master’s degree (or foreign equi. deg.) in Computer Science, Information Technology Management or rel. with knowledge of at least 7 of the following skills: Agile, SCRUM, Waterfall, JIRA, SAFe, Sharepoint, Oracle, SQL Server, UAT, Testing, Windows, MS Visio, SQL and .NET. </p>
-	  </div>
-	</section>
-	
-		<section class="accordion">
-	  <input type="checkbox" name="collapse" id="handle2" checked="checked">
-	  <h2 class="handle">
-		<label for="handle2">Software Developer, II</label>
-	  </h2>
-	  <div class="content">
-		<p><strong> Multiple Pos. (Chesterfield, MO)</strong> – Design/develop/modify software/sys. Appl.; perform database design for sys. conformance/optimization; provide tech. analysis/coding; perform analysis/database reengineering.  Travel to various unanticipated client sites. </p>
-		<p>Req. Bachelor’s deg. (or foreign equi. degree) in Comp. Sci., Comp. Info. Sys., Electrical Engg, Comp. Apps., Bus. Admin., Engg. (any field), Math., MIS or related with 5 yrs of progressive IT exp. and knowledge of at least 7 techs. from the following list: AWS, Bit Bucket, React JS, Angular, .Net Core, ADO.Net, Spring, Struts, Hibernate, C, C++, C#, JSP, Web Services, CSS, XML, XSL, HTML, JavaScript, Oracle, Java, J2EE, Python, Hadoop, Hive, Spark, Waterfall, Agile, UNIX, AJAX, Visual Basic, DB2, JSF, Informatica, Business Objects, MySQL, SQL Server, WebLogic, Crystal Reports, LINUX, Eclipse, JUNIT, UML, .Net, Visual Studio. MVC, Windows, COBOL and TOAD. WCF, Perl, PL/SQL, Servlets, JSP, JCF, WebSphere, ASP.Net, ADO.Net, JQuery, XPath, XSL, SSRS, SSIS, SSAS, JIRA, GIT, PowerShell.</p>
-	  </div>
-	</section>
+<head>
+		<style>
+			summary {
+			  font-size: 20px;
+			  font-weight: bold;
+			  cursor: pointer;
+			  margin: 10px;
+			  width: 500px;
+			
+		     margin-left: 400px;
 
-
-	<section class="accordion">
-	  <input type="checkbox" name="collapse" id="handle4" checked="checked">
-	  <h2 class="handle">
-		<label for="handle4">System Administrator</label>
-	  </h2>
-	  <div class="content">
-		<p><strong> Chesterfield, MO </strong> – Closely work with Application & database team for developing, implementing new solutions which includes building new environment, enhancing the existing infrastructure; analyze, design, and develop new scripts for the automation of deployments as well as create and manage patterns required for the deployment of instances on IBM Pure Application on-premises private cloud. Travel to various unanticipated client sites. Req’s Master’s degree (or foreign equi. deg.) in Computer Science, Information Technology, or rel. with knowledge of atleast 7 of the following skills: LINUX, IBM AIX, Windows Servers, WebSphere, IBM DB2, IBM Pure Application, LDAP, Active Directory, Patching, Automation Configuration tools like Puppet or Ansible. </p>
-		
-	  </div>
-	</section>
-
+			  padding: 10px;
+			  color: white;
+			  background-color:#a50808cb ;
+			 
+			}
+	  
+			details > p {
+			  padding: 5px;
+			  font-size: 20px;
+			  font-weight: bold;
+			  border: 30px;
+			  
+			  margin-left: 30px
+			  
+			}
+	  
+			summary:focus,
+			summary:hover {
+			  background-color: #984bcb;
+			}
+			details[open] summary {
+           background-color: #a50808cb;
+      }
+		  </style>
+	  </head>
+	  <body>
+		<!-- <h1>Styling Accordion with CSS</h1> -->
+		<details>
+		  <summary>Software Developer, II</summary>
+		  <div>
+			<p><strong> Multiple Pos. (Chesterfield, MO)</strong> – Design/develop/modify software/sys. Appl.; perform database design for sys. conformance/optimization; provide tech. analysis/coding; perform analysis/database reengineering.  Travel to various unanticipated client sites. </p>
+		    <p>Req. Master’s deg. (or foreign equi. degree) in Comp. Sci., Comp. Info. Sys., Electrical Engg, Comp. Apps., Bus. Admin., Engg. (Any field), Math., MIS or related with knowledge of at least 7 tech’s. from the following list: AWS, Bit Bucket, React JS, Angular, .Net Core, ADO.Net, Spring, Struts, Hibernate, C, C++, C#, JSP, Web Services, CSS, XML, XSL, HTML, JavaScript, Oracle, Java, J2EE, Python, Hadoop, Hive, Spark, Waterfall, Agile, UNIX, AJAX, Visual Basic, DB2, JSF, Informatica, Business Objects, MySQL, SQL Server, WebLogic, Crystal Reports, LINUX, Eclipse, JUNIT, UML, .Net, Visual Studio. MVC, Windows, COBOL and TOAD. WCF, Perl, PL/SQL, Servlets, JSP, JCF, WebSphere, ASP.Net, ADO.Net, JQuery, XPath, XSL, SSRS, SSIS, SSAS, JIRA, GIT, PowerShell. </p>
+		  </div>
+		</details>
+		<details>
+		  <summary>Business Information Analyst</summary>
+		  <div>
+			<p><strong> Chesterfield, MO </strong> – Work on creating functionality to EMMIS application of MHD; collaborate with business users to define scope, objects, and requirements as well as analyze system requirements. Travel to various unanticipated client sites. Req’s Master’s degree (or foreign equi. deg.) in Computer Science, Information Technology Management or rel. with knowledge of at least 7 of the following skills: Agile, SCRUM, Waterfall, JIRA, SAFe, Sharepoint, Oracle, SQL Server, UAT, Testing, Windows, MS Visio, SQL and .NET. </p>
+		  </div>
+		</details>
+		<details>
+		  <summary>Software Developer, II</summary>
+		  <div>
+			<p><strong> Multiple Pos. (Chesterfield, MO)</strong> – Design/develop/modify software/sys. Appl.; perform database design for sys. conformance/optimization; provide tech. analysis/coding; perform analysis/database reengineering.  Travel to various unanticipated client sites. </p>
+		    <p>Req. Bachelor’s deg. (or foreign equi. degree) in Comp. Sci., Comp. Info. Sys., Electrical Engg, Comp. Apps., Bus. Admin., Engg. (any field), Math., MIS or related with 5 yrs of progressive IT exp. and knowledge of at least 7 techs. from the following list: AWS, Bit Bucket, React JS, Angular, .Net Core, ADO.Net, Spring, Struts, Hibernate, C, C++, C#, JSP, Web Services, CSS, XML, XSL, HTML, JavaScript, Oracle, Java, J2EE, Python, Hadoop, Hive, Spark, Waterfall, Agile, UNIX, AJAX, Visual Basic, DB2, JSF, Informatica, Business Objects, MySQL, SQL Server, WebLogic, Crystal Reports, LINUX, Eclipse, JUNIT, UML, .Net, Visual Studio. MVC, Windows, COBOL and TOAD. WCF, Perl, PL/SQL, Servlets, JSP, JCF, WebSphere, ASP.Net, ADO.Net, JQuery, XPath, XSL, SSRS, SSIS, SSAS, JIRA, GIT, PowerShell.</p>
+		  </div>
+		</details>
+		<details>
+			<summary>System Administrator</summary>
+			<div>
+				<p><strong> Chesterfield, MO </strong> – Closely work with Application & database team for developing, implementing new solutions which includes building new environment, enhancing the existing infrastructure; analyze, design, and develop new scripts for the automation of deployments as well as create and manage patterns required for the deployment of instances on IBM Pure Application on-premises private cloud. Travel to various unanticipated client sites. Req’s Master’s degree (or foreign equi. deg.) in Computer Science, Information Technology, or rel. with knowledge of atleast 7 of the following skills: LINUX, IBM AIX, Windows Servers, WebSphere, IBM DB2, IBM Pure Application, LDAP, Active Directory, Patching, Automation Configuration tools like Puppet or Ansible. </p>
+			</div>
+		  </details>
+	  </body>	
 	
 	<section class="services-details-area ptb-100">
 		<div class="container">
